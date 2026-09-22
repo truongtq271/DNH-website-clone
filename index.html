@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bệnh viện Đa khoa &mdash; Trang chủ (Mẫu giao diện tham khảo)</title>
+<meta name="description" content="Giao diện website bệnh viện được dựng lại làm mẫu tham khảo: trang chủ, chuyên khoa, đội ngũ bác sĩ, trang thiết bị, tin tức.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <div class="container">
+    <a href="tel:02383976666" class="topbar-hotline">
+      <span class="dot"></span> Hotline: 0238 397 6666
+    </a>
+    <div class="topbar-right">
+      <span>Tận tâm phục vụ, Nâng tầm y đức</span>
+      <div class="topbar-social">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="TikTok">t</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="header">
+  <div class="container">
+    <a href="#" class="brand">
+      <img src="assets/images/logo.svg" alt="Logo bệnh viện">
+      <span class="brand-text">
+        <span class="brand-name">Bệnh viện Đa khoa</span>
+        <span class="brand-tag">Tận tâm phục vụ &middot; Nâng tầm y đức</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="mainNav">
+      <a href="#trang-chu" class="is-active">Trang chủ</a>
+      <a href="#gioi-thieu">Giới thiệu</a>
+      <a href="#chuyen-khoa">Chuyên khoa</a>
+      <a href="#dich-vu">Dịch vụ y tế</a>
+      <a href="#tin-tuc">Tin tức</a>
+      <a href="#tuyen-dung">Tuyển dụng &ndash; Đào tạo</a>
+      <a href="#lien-he">Liên hệ</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#lien-he" class="btn btn--outline">Tư vấn miễn phí</a>
+      <a href="#dat-lich" class="btn btn--primary">Đặt lịch khám</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Mở menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="trang-chu">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <span class="hero-eyebrow">★ Bệnh viện hạng I tuyến tỉnh</span>
+        <h1>Chăm sóc sức khỏe <span>tận tâm</span>, uy tín hàng đầu khu vực</h1>
+        <p>Đội ngũ bác sĩ chuyên môn cao, trang thiết bị hiện đại và quy trình khám chữa bệnh khép kín, đồng hành cùng sức khỏe của bạn và gia đình.</p>
+        <div class="hero-actions">
+          <a href="#dat-lich" class="btn btn--primary">Đặt lịch khám ngay</a>
+          <a href="#chuyen-khoa" class="btn btn--outline">Xem chuyên khoa</a>
+        </div>
+      </div>
+      <div>
+        <div class="hero-media">
+          <img src="assets/images/hero.jpg" alt="Hoạt động khám chữa bệnh tại bệnh viện">
+        </div>
+        <p class="hero-caption">Khám, chữa bệnh Bảo hiểm y tế không cần giấy chuyển tuyến</p>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat"><div class="stat-num">30+</div><div class="stat-label">Chuyên khoa Lâm sàng &amp; Cận lâm sàng</div></div>
+          <div class="stat"><div class="stat-num">600+</div><div class="stat-label">Bác sĩ chuyên môn cao</div></div>
+          <div class="stat"><div class="stat-num">1.000+</div><div class="stat-label">Danh mục kỹ thuật</div></div>
+          <div class="stat"><div class="stat-num">50+</div><div class="stat-label">Chuyên gia hợp tác</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CHUYÊN KHOA MŨI NHỌN ============ -->
+<section class="section" id="chuyen-khoa">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Chuyên khoa</span>
+      <h2 class="section-title">Chuyên khoa <span>mũi nhọn</span></h2>
+      <p class="section-desc">Các chuyên khoa thế mạnh với đội ngũ bác sĩ giàu kinh nghiệm và trang thiết bị chuyên sâu.</p>
+    </div>
+    <div class="grid grid--6">
+      <div class="card specialty-card"><div class="specialty-icon">🩻</div><h3>Chẩn đoán hình ảnh</h3></div>
+      <div class="card specialty-card"><div class="specialty-icon">🩺</div><h3>Ngoại tổng hợp</h3></div>
+      <div class="card specialty-card"><div class="specialty-icon">🦴</div><h3>Chấn thương chỉnh hình</h3></div>
+      <div class="card specialty-card"><div class="specialty-icon">👶</div><h3>Phụ sản</h3></div>
+      <div class="card specialty-card"><div class="specialty-icon">👁️</div><h3>Tai Mũi Họng &ndash; RHM &ndash; Mắt</h3></div>
+      <div class="card specialty-card"><div class="specialty-icon">❤️</div><h3>Nội tổng hợp</h3></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ĐỘI NGŨ BÁC SĨ ============ -->
+<section class="section section--soft" id="gioi-thieu">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Đội ngũ</span>
+      <h2 class="section-title">Đội ngũ <span>chuyên gia, bác sĩ</span></h2>
+      <p class="section-desc">Quy tụ đội ngũ y bác sĩ giàu kinh nghiệm, tận tâm với người bệnh.</p>
+    </div>
+    <div class="grid grid--6" id="doctorGrid">
+      <!-- filled by JS placeholder generator -->
+    </div>
+    <div style="text-align:center; margin-top:32px;">
+      <a href="#" class="btn btn--outline">Xem thêm các Bác sĩ</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRANG THIẾT BỊ ============ -->
+<section class="section" id="dich-vu">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Cơ sở vật chất</span>
+      <h2 class="section-title">Hệ thống trang thiết bị <span>hiện đại</span></h2>
+      <p class="section-desc">Đầu tư đồng bộ trang thiết bị y tế tiên tiến, phục vụ chẩn đoán và điều trị chính xác.</p>
+    </div>
+    <div class="grid grid--4">
+      <div class="card equip-card">
+        <div class="equip-media"><img src="assets/images/item-1.png" alt="MRI 1.5 Tesla"></div>
+        <div class="equip-body"><h3>MRI 1.5 Tesla</h3></div>
+      </div>
+      <div class="card equip-card">
+        <div class="equip-media"><img src="assets/images/item-2.png" alt="CT-Scanner GE"></div>
+        <div class="equip-body"><h3>CT-Scanner GE</h3></div>
+      </div>
+      <div class="card equip-card">
+        <div class="equip-media"><img src="assets/images/item-3.png" alt="Nội soi Olympus CV 170"></div>
+        <div class="equip-body"><h3>Nội soi Olympus CV 170</h3></div>
+      </div>
+      <div class="card equip-card">
+        <div class="equip-media"><img src="assets/images/item-4.png" alt="Siêu âm màu 4D GE Voluson"></div>
+        <div class="equip-body"><h3>Siêu âm màu 4D GE Voluson</h3></div>
+      </div>
+      <div class="card equip-card">
+        <div class="equip-media"><img src="assets/images/item-5.png" alt="Xét nghiệm tự động"></div>
+        <div class="equip-body"><h3>Xét nghiệm tự động</h3></div>
+      </div>
+      <div class="card equip-card">
+        <div class="equip-media"><img src="assets/images/item-6.png" alt="Đo loãng xương Osteosys"></div>
+        <div class="equip-body"><h3>Đo loãng xương Osteosys</h3></div>
+      </div>
+      <div class="card equip-card">
+        <div class="equip-media"><img src="assets/images/item-7.png" alt="X-Quang DRGEM"></div>
+        <div class="equip-body"><h3>X-Quang DRGEM</h3></div>
+      </div>
+      <div class="card equip-card">
+        <div class="equip-media"><img src="assets/images/item-8.png" alt="Phòng mổ khép kín"></div>
+        <div class="equip-body"><h3>Phòng mổ khép kín</h3></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VÌ SAO LỰA CHỌN CHÚNG TÔI ============ -->
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Cam kết</span>
+      <h2 class="section-title">Vì sao lựa chọn <span>chúng tôi?</span></h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card"><div class="why-icon">🏥</div><h4>Cơ sở hạ tầng</h4><p>Đồng bộ, nhiều tiện ích, thân thiện với môi trường</p></div>
+      <div class="why-card"><div class="why-icon">⚙️</div><h4>Thiết bị hiện đại</h4><p>Tích hợp công nghệ chẩn đoán &amp; điều trị tiên tiến</p></div>
+      <div class="why-card"><div class="why-icon">👨‍⚕️</div><h4>Nhân sự tận tâm</h4><p>Đội ngũ y bác sĩ giàu kinh nghiệm, chuyên môn cao</p></div>
+      <div class="why-card"><div class="why-icon">💰</div><h4>Chi phí hợp lý</h4><p>Nhiều chính sách ưu đãi cho người bệnh</p></div>
+      <div class="why-card"><div class="why-icon">📋</div><h4>Chấp nhận BHYT</h4><p>Hỗ trợ thanh toán bảo hiểm y tế thuận tiện</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TIN TỨC NỔI BẬT ============ -->
+<section class="section" id="tin-tuc">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Tin tức</span>
+      <h2 class="section-title">Tin tức <span>nổi bật</span></h2>
+    </div>
+    <div class="grid grid--3">
+      <article class="card news-card">
+        <div class="news-media"><img src="assets/images/gallery-1.jpg" alt="Tin tức bảo hiểm y tế"></div>
+        <div class="news-body">
+          <div class="news-meta">Thông báo</div>
+          <h3>Khám, chữa bệnh Bảo hiểm y tế không cần giấy chuyển tuyến</h3>
+          <div class="news-date">20/09/2026</div>
+        </div>
+      </article>
+      <article class="card news-card">
+        <div class="news-media"><img src="assets/images/gallery-2.jpg" alt="Tin tức hợp tác"></div>
+        <div class="news-body">
+          <div class="news-meta">Hợp tác</div>
+          <h3>Ký kết hợp tác chuyên môn với các bệnh viện tuyến trên</h3>
+          <div class="news-date">15/09/2026</div>
+        </div>
+      </article>
+      <article class="card news-card">
+        <div class="news-media"><img src="assets/images/gallery-3.jpg" alt="Tin tức đào tạo"></div>
+        <div class="news-body">
+          <div class="news-meta">Đào tạo</div>
+          <h3>Chương trình đào tạo nâng cao nghiệp vụ cho đội ngũ y bác sĩ</h3>
+          <div class="news-date">08/09/2026</div>
+        </div>
+      </article>
+    </div>
+    <div style="text-align:center; margin-top:32px;">
+      <a href="#" class="btn btn--outline">Xem tất cả tin tức</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VIDEOS ============ -->
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Media</span>
+      <h2 class="section-title">Videos</h2>
+    </div>
+    <div class="grid grid--4">
+      <div class="video-card">
+        <img src="assets/images/hero.jpg" alt="Video giới thiệu bệnh viện">
+        <div class="video-play"><div class="icon">▶</div></div>
+      </div>
+      <div class="video-card">
+        <img src="assets/images/gallery-1.jpg" alt="Video sắp ra mắt">
+        <div class="video-play"><span class="video-badge">Sắp ra mắt</span></div>
+      </div>
+      <div class="video-card">
+        <img src="assets/images/gallery-2.jpg" alt="Video sắp ra mắt">
+        <div class="video-play"><span class="video-badge">Sắp ra mắt</span></div>
+      </div>
+      <div class="video-card">
+        <img src="assets/images/gallery-3.jpg" alt="Video sắp ra mắt">
+        <div class="video-play"><span class="video-badge">Sắp ra mắt</span></div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:32px;">
+      <a href="#" class="btn btn--outline">Xem thêm video</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HÌNH ẢNH ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Thư viện</span>
+      <h2 class="section-title">Hình ảnh</h2>
+    </div>
+    <div class="gallery-grid">
+      <img src="assets/images/hero.jpg" class="span-2" alt="Hình ảnh bệnh viện 1">
+      <img src="assets/images/gallery-1.jpg" alt="Hình ảnh bệnh viện 2">
+      <img src="assets/images/gallery-2.jpg" alt="Hình ảnh bệnh viện 3">
+      <img src="assets/images/gallery-3.jpg" alt="Hình ảnh bệnh viện 4">
+      <img src="assets/images/item-1.png" alt="Hình ảnh bệnh viện 5">
+      <img src="assets/images/item-4.png" alt="Hình ảnh bệnh viện 6">
+    </div>
+    <div style="text-align:center; margin-top:32px;">
+      <a href="#" class="btn btn--outline">Xem thêm hình ảnh</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Phản hồi</span>
+      <h2 class="section-title">Khách hàng nói gì <span>về chúng tôi</span></h2>
+    </div>
+    <div class="grid grid--3">
+      <div class="testi-card">
+        <p class="testi-quote">&ldquo;Đội ngũ y bác sĩ rất tận tình, quy trình khám nhanh gọn, tôi rất hài lòng.&rdquo;</p>
+        <div class="testi-person">
+          <div class="testi-avatar">A</div>
+          <div><div class="testi-name">Chị Anh</div><div class="testi-loc">TP. Vinh</div></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-quote">&ldquo;Trang thiết bị hiện đại, kết quả chẩn đoán chính xác và nhanh chóng.&rdquo;</p>
+        <div class="testi-person">
+          <div class="testi-avatar">B</div>
+          <div><div class="testi-name">Anh Bình</div><div class="testi-loc">Nghi Lộc</div></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-quote">&ldquo;Không gian bệnh viện sạch sẽ, nhân viên thân thiện, chu đáo.&rdquo;</p>
+        <div class="testi-person">
+          <div class="testi-avatar">C</div>
+          <div><div class="testi-name">Cô Chi</div><div class="testi-loc">Diễn Châu</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PARTNERS ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Đối tác</span>
+      <h2 class="section-title">Đối tác đang sử dụng dịch vụ</h2>
+    </div>
+    <div class="partners-row">
+      <div class="partner-chip">VINPEARL</div>
+      <div class="partner-chip">AGRIBANK</div>
+      <div class="partner-chip">BIDV</div>
+      <div class="partner-chip">VSIP</div>
+      <div class="partner-chip">THACO</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="section" id="dat-lich">
+  <div class="container">
+    <div class="cta-strip">
+      <div>
+        <h3>Đặt lịch khám nhanh chóng &ndash; Không cần chờ đợi</h3>
+        <p>Liên hệ tổng đài hoặc đặt lịch trực tuyến để được phục vụ ưu tiên.</p>
+      </div>
+      <a href="tel:02383976666" class="btn btn--primary">Gọi ngay 0238 397 6666</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer" id="lien-he">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/images/logo.svg" alt="Logo bệnh viện">
+          <span class="footer-brand-name">Bệnh viện Đa khoa</span>
+        </div>
+        <p>ĐKKD số: 0000000000 &ndash; cấp ngày 01/01/2015</p>
+        <p>Giấy phép hoạt động số: 000/BYT-GPHĐ</p>
+        <p>Địa chỉ: Số 5, Đại lộ ABC, Phường XYZ, Tỉnh Nghệ An</p>
+        <p>Điện thoại: 0238 397 6666</p>
+        <p>Email: info@benhviendakhoa.vn</p>
+      </div>
+      <div>
+        <h4>Giới thiệu</h4>
+        <ul class="footer-links">
+          <li><a href="#">Sứ mệnh &ndash; Tầm nhìn</a></li>
+          <li><a href="#">Lãnh đạo</a></li>
+          <li><a href="#">Đội ngũ bác sĩ</a></li>
+          <li><a href="#">Hướng dẫn khách hàng</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Chuyên khoa</h4>
+        <ul class="footer-links">
+          <li><a href="#">Khám bệnh &ndash; Cấp cứu</a></li>
+          <li><a href="#">Nội tiết</a></li>
+          <li><a href="#">Phụ sản</a></li>
+          <li><a href="#">Nhi khoa</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Khác</h4>
+        <ul class="footer-links">
+          <li><a href="#">Tin tức</a></li>
+          <li><a href="#">Tuyển dụng &ndash; Đào tạo</a></li>
+          <li><a href="#">Thư viện hình ảnh</a></li>
+          <li><a href="#">Liên hệ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Bệnh viện Đa khoa. Giao diện mẫu tham khảo, không phải trang chính thức.</span>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Zalo">Z</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ FLOATING BUTTONS ============ -->
+<div class="fab-stack">
+  <a href="tel:02383976666" class="fab fab--call" aria-label="Gọi điện">📞</a>
+  <a href="#" class="fab fab--zalo" aria-label="Chat Zalo">💬</a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
